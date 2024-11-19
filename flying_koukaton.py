@@ -23,9 +23,9 @@ def main():
         key_lst = pg.key.get_pressed()
         if key_lst[pg.K_UP] or key_lst[pg.K_DOWN] or key_lst[pg.K_RIGHT]:
             if key_lst[pg.K_UP]:
-                move_num = (0, -1)
+                move_num = (1, -1)
             elif key_lst[pg.K_DOWN]:
-                move_num = (0, 1)
+                move_num = (1, 1)
             elif key_lst[pg.K_RIGHT]:
                 move_num = (1, 0)
         else:
